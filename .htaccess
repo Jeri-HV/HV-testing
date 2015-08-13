@@ -1,8 +1,9 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
 #RewriteBase /
+RewriteRule ^(.*)HealthiPerspectives/novartis/demo https://tonicforhealth.com/passage/survey/1u3q8U1sVunqXLqho5hKiA/question [L,NC]
+RewriteRule ^(.*)HealthiPerspectives/scrs/demo https://tonicforhealth.com/passage/survey/5ujlSIW9ezHn2_1f9pyT-g/question [L,NC]
 RewriteRule ^(.*)HealthiPerspectives/janssen/demo https://tonicforhealth.com/passage/survey/gaSZIBmaoJBS2YrYuCFnIA/question [L,NC]
 RewriteRule ^(.*)HealthiPerspectives https://tonicforhealth.com/passage/survey/k4L1rBefULQeWxAjuqXevg/q [L,NC]
 RewriteRule ^(.*)\.html $1.php [L]
