@@ -70,9 +70,51 @@ medicine</span>
 <h1>Insights</h1>
 
 <p>
-[INSIGHTS CONTENT HERE]
+Every clinical trial and patient-centric initiative presents unique challenges, but we have found that even
+small changes in approach can make a big difference in participation, retention, and outcome. How do 
+we know? <strong>We ask.</strong></p>
+<p>
+Gathering intelligence via focus groups, interviews, surveys, and simulations, HealthiVibe taps deep into the patient psyche to capture a holistic look at their real-life experiences. How does the patient view their disease or condition, and what burden does it place on them and their loved ones? Why is the patient taking medication, and why would they consider switching drugs? How do they perceive their quality of life? </p>
+<p>
+<strong>We have access to 10 million consumers worldwide</strong>–coping with a vast range of diseases and health conditions– who make up our various patient panels.
 </p>
-
+<blockquote>
+Armed with first-hand patient insights, we home in on the often-overlooked scientific, operational, and behavioral imperfections of trial and program development and execution, and we uncover ways to improve them.
+</blockquote>
+<p>
+Through this proprietary process, we are able to understand and eliminate numerous potential challenges, which helps our clients design and conduct trials and programs that better fit participants' needs. Such optimization means pharmaceutical companies can more quickly commence and complete effective, patient-friendly studies and develop beneficial patient initiatives–<strong>and saving time equates to saving money.</strong> 
+</p>
+<p><a href="<?php echo $base; ?>what-we-do.html">Learn more about what we do to improve our clients' clinical trials and patient-centered initiatives >></a></p>
+<p>Here are some of the factors that we take into account as we work alongside clients who are designing a clinical trial or a patient-centric program:</p>
+<h2>Operational Considerations</h2>
+<ul>
+	<li>Visit schedules</li>
+	<li>Workflow</li>
+	<li>Tests and procedures</li>
+	<li>Patient-reported outcomes data collection</li>
+	<li>Recruitment tactics</li>
+	<li>Retention barriers</li>
+	<li>Caregiver burden</li>
+	<li>Transportation issues</li>
+</ul>
+<h2>Study or Programmatic Considerations</h2>
+<ul>
+	<li>Meaningful patient experience</li>
+	<li>Requirements that hinder participation</li>
+	<li>Factors that enhance participation</li>
+	<li>Impact on patient's daily life</li>
+	<li>Minimize drop-out/improving overall retention rates</li>
+</ul>
+<h2>Clinical Considerations</h2>
+<ul>
+	<li>Factors influencing treatment decision-making</li>
+	<li>Thoughts on treatment side effects</li>
+	<li>Factors affecting medication switch</li>
+	<li>Role of the prescriber, pharma, and other educational resources</li>
+</ul>
+<p>
+<a href="<?php echo $base; ?>contact.html">Contact us</a> today to discuss ways we can increase the success of your clinical trial or your patient-centric initiative. 
+</p>
 </div>
 <!-- main-text -->
 
