@@ -1,0 +1,267 @@
+/* Landing page */
+
+#content-splash {
+	clear: both;
+        width: 100%;
+        min-width: 1080px;
+	max-width: 100%;
+	background-color: #6E6089;
+        max-height: 340px;
+}
+
+#content-splash A, #content-splash A:link, #content-splash A:visited, #content-splash A:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+#splash-right img {
+	display: block;
+	max-height: 340px;
+}
+
+#splash-left {
+	float: left;
+	padding-left: 0px;
+	padding-top: 40px;
+	color: #ffffff;
+	font-weight: 100;
+	/*width: 55%;*/
+}
+
+#splash-right {
+	float: right;
+	overflow: hidden;
+	width: 480px;
+}
+
+
+#splash-nav-bar {
+	clear: both;
+	width: 150px;
+	padding: 10px;
+	margin: 0px auto 0px auto;
+}
+
+#splash-nav-bar div {
+	float: left;
+	height: 21px;
+	width: 20px;
+	background-size: 18px 19px;
+	background-repeat: no-repeat;
+	margin: 4px 7px;
+}
+
+.circlediv {
+	cursor: pointer;
+	text-align: center;
+	float: left;
+	color: #bfbfbf;
+	font-size: 80%;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 25px 35px 12px 0px;
+}
+
+.circlediv:hover {
+	color: #fff;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+}
+
+.circlediv img {
+	height: 80px;
+}
+
+
+DIV .selected {
+	background: url(images/circle-selected.png);
+}
+
+DIV .unselected {
+	background: url(images/circle-unselected.png);
+}
+
+
+#roles {
+	width: 900px;
+	margin: 20px auto 20px auto;
+}
+
+.rolediv {
+	cursor: pointer;
+	width: 300px;
+	text-align: center;
+	float: left;
+	font-size: 100%;
+	color: #787878;
+	font-weight: 300;
+}
+
+.rolediv:hover {
+	color: #000000;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-ms-transition: all 1s;
+	-o-transition: all 1s;
+}
+.rolediv H1 {
+	font-weight: 600;
+	color: #72a951;
+	font-size: 110%;
+}
+
+.roleimg {
+	height: 50px;
+}
+
+.arrowimg {
+	margin: 10px 0px;
+	width: 30px;
+}
+
+#learnmore {
+	clear: both;
+	position: static;
+	text-align: left;
+	padding-left: 400px;
+	text-transform: uppercase;
+	bottom: 20px;
+	color: #bfbfbf;
+	font-weight: 600;
+	font-size: 80%;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#learnmore span:hover {
+	color: #fff;
+        transition: all 1s;
+        -webkit-transition: all 1s;
+        -moz-transition: all 1s;
+        -ms-transition: all 1s;
+        -o-transition: all 1s;
+
+}
+
+.highlighted {
+	color: #fff;
+        transition: all .5s;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        -ms-transition: all .3s;
+        -o-transition: all .3s;
+
+}
+
+#learnmore IMG {
+	position: relative;
+	top: -3px;
+	height: 30px;
+	padding: 25px 15px;
+	vertical-align: middle;
+}
+
+.carousel {
+	z-index: 100;
+	position: relative;
+	left: 0%;
+	width: 500%;
+	height: 340px;
+	animation: imagetrans 25s infinite;
+	-moz-animation: imagetrans 25s infinite;
+	-o-animation: imagetrans 25s infinite;
+	-webkit-animation: imagetrans 25s infinite;
+}
+
+.carousel > IMG {
+	float: left;
+	height: 340px;
+}
+
+@keyframes imagetrans
+{
+0%   	{ left: 0px;}
+23%	{ left: 0px;}
+25%	{ left: -480px; }
+48%	{ left: -480px; }
+50%	{ left: -960px; }
+73%	{ left: -960px; }
+75%	{ left: -1440px; }
+98%	{ left: -1440x; }
+100%	{ left: -1920px; }
+}
+
+@-webkit-keyframes imagetrans /* Safari and Chrome */
+{
+0%      { left: 0px;}
+23%     { left: 0px;}
+25%     { left: -480px; }
+48%     { left: -480px; }
+50%     { left: -960px; }
+73%     { left: -960px; }
+75%     { left: -1440px; }
+98%     { left: -1440px; }
+100%    { left: -1920px; }
+}
+
+@media screen and (max-width: 480px) {
+	.carousel {
+		display: none;
+	}
+
+	#content-splash {
+		width: 100%;
+		max-height: 1000px;
+		min-width: 100%;
+	}
+
+	#splash-right {
+		display: none;
+	}
+
+	.circlediv {
+		margin-right: 10px;
+		font-size: 70%;
+	}
+
+	.circlediv img {
+		height: 50px;
+	}
+
+	#learnmore {
+		padding-left: 0px;
+		display: none;
+	}
+
+	#curve-left {
+		display: none;
+	}
+
+	#curve-right {
+		display: none;
+	}
+
+	#roles {
+        	width: 440px;
+		max-width: 90%;
+        	margin: 10px auto 10px auto;
+	}
+
+	.rolediv {
+        	cursor: pointer;
+   	     	width: 100%;
+        	text-align: center;
+        	float: left;
+        	font-size: 100%;
+        	color: #787878;
+        	font-weight: 300;
+	}
+
+	#splash-nav-bar {
+		display: none;
+	}
+}

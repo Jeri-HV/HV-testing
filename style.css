@@ -1,0 +1,610 @@
+/* Common */
+
+BODY {          
+        background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif, Gill sans, sans-serif;
+        font-weight: 300;
+        margin: 0px;
+	overflow-x: none;
+} 
+
+#master {
+	width: 100%; /* 1280px; */ 
+	max-width: 100%;
+	background-color: #ffffff;
+	margin: 0 auto 0 auto;
+	overflow-x: none;
+}
+
+#header {
+	clear: both;
+	margin: 0 0 0 0;
+	padding: 25px 0 15px 0;
+	height: 80px;
+	font-size: 85%;
+	letter-spacing: .08em;
+	text-transform: none;
+	color: #2e1a46;
+}
+
+#main {
+	width: 100%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	clear: both;
+	font-size: 105%;
+	line-height: 1.5em;
+}
+
+.down-arrow {
+	margin: 0 0 0 0;
+	padding: 0 0 4px 2px;
+	vertical-align: middle;
+}
+
+input[type="text"] {
+	text-transform: none;
+	padding: 0 4px 0 4px;
+	height: 25px;
+	border: 1px solid #a9a9a9;
+	margin-bottom: 5px;
+}
+
+.sb-inactive {
+	color: #a9a9a9;
+}
+.sb-active {
+	color: #787878;
+}
+
+
+#main-text {
+	width: 760px;
+	margin: 20px auto 20px auto;
+	max-width: 100%;
+}
+.scrollbar {
+	overflow-y: scroll;
+}
+.scrollbar::-webkit-scrollbar{
+width:16px;
+background-color:#d9d9d9;
+} 
+.scrollbar::-webkit-scrollbar-thumb{
+background-color:#b2b2b2;
+}
+.scrollbar::-webkit-scrollbar-thumb:hover{
+background-color:#a4a4a4;
+border:1px solid #929292;
+}
+.scrollbar::-webkit-scrollbar-thumb:active{
+background-color:#a4a4a4;
+border:1px solid #929292;
+} 
+#logo {
+	max-width: 70%;
+	width: 250px;
+	float: left;
+}
+#topmenu {
+	float: right;
+	margin: 25px 10px 20px 25px;
+	line-height: normal;
+}
+#searchmenu {
+	float: right;
+	margin: 24px 0 20px 0;
+}
+#searchbox {
+	display: none;
+}
+#topmenu SPAN {
+	margin: 0 55px 0 0;
+}
+#loginmenu SPAN {
+	margin: 0 3px 0 3px;
+}
+
+.bolder {
+	font-weight: 600;
+}
+
+.headline {
+        font-size: 2.15em;
+        font-weight: 100;
+	color: #fff;
+        transition: color .5s;
+        -webkit-transition: color .5s;
+        -moz-transition: color .5s;
+        -ms-transition: color .5s;
+        -o-transition: color .5s;
+}
+
+.headline-shown {
+	font-size: 2.15em;
+        font-weight: 100;
+	color: #63638b;
+}
+
+.headline-hidden {
+	font-size: 2.15em;
+	font-weight: 100;
+	display: none;
+	color: #6e638b;
+}
+
+.invalid-field {
+        color: red;
+        padding-left: 5px;
+}
+
+.valid-field {
+        display: none;
+        padding-left: 5px;
+}
+
+.supplemental-text {
+        color: #5a5a5a;
+        font-size: 90%;
+        font-style: italic;
+        font-weight: 200;
+}
+
+
+#interior-banner {
+	height: 420px;
+}
+
+#interior-banner-text {
+	padding: 80px 0 0 0;
+}
+
+.interior-headline {
+	font-size: 2.35em;
+	font-weight: 400;
+	text-shadow: 0 0 10px #000000;
+}       
+       
+
+#content {
+	clear: both;
+	padding-top: 10px;
+}
+
+#page {
+        width: 760px;
+        margin: 20px auto 20px auto;
+        max-width: 100%;
+}
+
+H1 {
+	font-size: 1.85em;
+	font-weight: 600;
+	color: #6e638b; 
+}
+H2 {
+	margin-top: 1.5em;
+	color: #6e638b;
+	font-weight: 400;
+	font-size: 1.25em;
+}
+BLOCKQUOTE
+{
+  font-size: 125%; 
+  line-height: 150%;
+}
+body[id="learn"] H1 {
+	color: #73a950;
+}
+
+body[id="learn"] H2 {
+	color: #73a950;
+}
+
+.canvas {
+	width: 1080px;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+A, A:link, A:visited, A:hover {
+	text-decoration: none;
+  font-weight: 400;
+	color: #73a950;
+}
+
+li A, li A:link, li A:visited, li A:hover {
+        text-decoration: none;
+        color: inherit;
+}
+
+.entry-content a:visited,
+.comment-content a:visited {
+        color: #73a950;
+}
+
+
+ul li {
+	margin-left: 20px;
+}
+
+
+ul.menu {
+  padding: 0;
+  text-align: left;
+  display: inline;
+  margin: 0;
+  margin-bottom: 0;
+  list-style: none;
+  font-family: Tahoma, Verdana,'Open Sans', sans-serif;
+}
+
+ul.menu li {
+  margin-left: 0px;
+  z-index: 150000;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: -4px;
+  position: relative;
+  padding: 5px 16px;
+  background: none;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  text-transform: uppercase;
+}
+ul.menu li:hover {
+  border-bottom: 3px solid #b2d69c;
+  color: #72a951;
+}
+ul.menu img {
+  margin: 0 0 0 0;
+}
+ul.menu li ul {
+  z-index: 150001;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  min-width: 200px;
+  /*width: 150px;*/
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -ms-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -transition: opacity 0.4s;
+      /* Rounded Corners */
+    -moz-border-radius: 0px 10px 10px 10px;
+    -webkit-border-radius: 0px 10px 10px 10px;
+    border-radius: 0px 10px 10px 10px;
+    background: #b2d69c;
+}
+ul.menu li ul li {
+  margin: 0;
+  background: transparent;
+  display: block;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  
+}
+ul.menu li ul li:hover { color: #fff; border-bottom: none !important;  background:#72a951; }
+ul.menu li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+ul.menu li ul li.first:hover {     
+ /* Rounded Corners */
+    -moz-border-radius: 0px 10px 0 0;
+    -webkit-border-radius: 0px 10px 0 0;
+    border-radius: 0px 10px 0 0;
+}
+ul.menu li ul li.last:hover {     
+ /* Rounded Corners */
+    -moz-border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+.mobile { display: none; }
+
+
+.sidebar {
+	min-height: 470px; 
+       float: right;
+        margin: 0 0 40px 40px;
+        padding: 0 0 0px 40px;
+	width: 200px;
+        border-left: 1px solid #ccc;
+}
+
+.sidebar div {
+        width: 100%;
+        padding: 0px 0px;
+        font-size: 90%;
+        color: #454545;
+        text-align: center;
+}
+
+.sidebar div+div {
+        width: 100%;
+        padding: 20px 0px;
+        font-size: 90%;
+        color: #454545;
+        text-align: center;
+}
+
+.sidebar img {
+        max-width: 180px; 
+	height: auto;
+}
+
+.sidebar A, .sidebar A:visited, .sidebar A:link, .sidebar A:hover {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 100%;
+	color: inherit;
+	display: inline-block;
+	margin: 10px 0px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+        .sidebar {
+                min-height: initial;
+                float: none;
+                padding: 0 0 10px 0;
+                width: 100%;
+                margin: 10px auto 10px auto;
+                border-left: none;
+        }
+}
+
+.page-heading {
+	width: 100%;
+	background-color: #6e638b;
+	color: #fff;
+	font-size: 140%;
+	font-weight: 100;
+	text-align: center;
+	padding: 70px 0 70px 0;
+}
+
+.sidebar-heading SPAN {
+        display: block;
+	margin: 5px 0px;
+        letter-spacing: .1em;
+        padding: 1px 0px;
+        width: 100%;
+        /*background: #f0f0f0;*/
+	border-top: 1px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+        font-size: 70%;
+        text-transform: uppercase;
+        color: #999;
+}
+
+#copyright {
+	color: #4e4d4b;
+	text-align: center;
+	font-size: 80%;
+	padding: 4px 7px;
+}
+
+#footer {
+	clear: both;
+	width: 100%;
+	background-color: #d9d9d9;
+	min-height: 30px;
+	margin-top: 45px;
+	padding-top: 10px;
+	text-align: center;
+	color: #4e4d4b;
+	font-size: 80%;
+	text-transform: uppercase;
+}
+
+#footer A, #footer A:visited, #footer A:link {
+	margin-right: 35px;
+	color: #4e4d4b;
+	text-decoration: none;
+	font-size: .8em;
+	font-weight: bold;
+}
+
+#mobilemenu {
+	display: none;
+}
+
+#mobilesubmenu {
+	display: none;
+}
+@media screen and (max-width: 1080px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	.canvas {
+		width: 100%;
+		}
+
+	#header {
+        	padding: 25 0 0 0;
+		font-size: 85%;
+	}
+	#main-text {
+		width: 450px;
+		max-width: 95%;
+	}
+	#searchmenu {
+		display: none;
+	}
+
+	#logo {
+		padding-left: 8px;
+	}
+
+	#interior-banner-text {
+		margin-left: 8px;
+		max-width: 90%;
+	}
+
+	#mobilemenu {
+		height: 25px;
+		background-color: #dfdfdf;
+		color: #fff;
+		text-transform: uppercase;
+		text-align: center;
+		clear: both;
+		display: block;
+		width: 100%;
+	}
+
+	#topmenu {
+		margin: 0 0 0 0;
+		display: none;
+		width: 100%;
+	}
+
+	#topmenu SPAN {
+        	margin: 0 0 0 0;
+	}
+
+	#footer {
+		font-size: 100%;
+	}
+
+	#footer A, #footer A:visited, #footer A:link {
+       		margin-right: 15px;
+		display: block;
+	}
+
+	ul.menu {
+		position: absolute;
+		margin: 0;
+  		display: block;
+		width: 100%;
+	}
+
+	ul.menu li {
+	  	margin-right: 0px;
+ 		position: relative;
+  		padding: 5px 0px;
+		color: #fff;
+		display: block;
+		background: #555;
+		text-align: center;
+	}
+
+	ul.menu li:hover {
+		background: #666;
+	}
+
+	ul.menu li.drop {
+		padding-top: 10px;
+		color: #bbb;
+	}
+
+	ul.menu li.drop:hover {
+		background: #555;
+	}
+
+	ul.menu li ul {
+		visibility: visible;
+		opacity: 1;
+		display: block;
+ 		position: relative;
+  		top:initial;
+  		width: initial;
+	}
+
+	ul.menu li img {
+		display: none;
+	}
+
+	.mobile {
+		display: inline;
+	}
+
+	#interior-banner-text {
+		margin-left: 10px;
+		max-width: 90%;
+	}
+}
+
+
+input.rounded {
+
+	width: 100%;
+  border: 1px solid #ccc;
+   
+  /* Safari 5, Chrome support border-radius without vendor prefix.
+   * FF 3.0/3.5/3.6, Mobile Safari 4.0.4 require vendor prefix.
+   * No support in Safari 3/4, IE 6/7/8, Opera 10.0.
+   */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  
+  /* Chrome, FF 4.0 support box-shadow without vendor prefix.
+   * Safari 3/4/5 and FF 3.5/3.6 require vendor prefix.
+   * No support in FF 3.0, IE 6/7/8, Opera 10.0, iPhone 3.
+   * change the offsets, blur and color to suit your design.
+   */
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  
+  /* using a bigger font for demo purposes so the box isn't too small */
+  font-size: 1.1em;
+  
+  /* with a big radius/font there needs to be padding left and right
+   * otherwise the text is too close to the radius.
+   * on a smaller radius/font it may not be necessary
+   */
+  padding: 4px 7px;
+  
+  /* only needed for webkit browsers which show a rectangular outline;
+   * others do not do outline when radius used.
+   * android browser still displays a big outline
+   */
+  outline: 0;
+
+  /* this is needed for iOS devices otherwise a shadow/line appears at the
+   * top of the input. depending on the ratio of radius to height it will
+   * go all the way across the full width of the input and look really messy.
+   * ensure the radius is no more than half the full height of the input, 
+   * and the following is set, and everything will render well in iOS.
+   */
+  -webkit-appearance: none;
+  
+}
+
+input.rounded:focus {
+  
+  /* supported IE8+ and all other browsers tested.
+   * optional, but gives the input focues when selected.
+   * change to a color that suits your design.
+   */
+  border-color: #339933;
+  
+}
+#contact-sidebar {
+       /* Rounded Corners */
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #b2d69c; 
+}

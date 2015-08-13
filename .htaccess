@@ -1,0 +1,16 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+#RewriteBase /
+RewriteRule ^(.*)HealthiPerspectives/janssen/demo https://tonicforhealth.com/passage/survey/gaSZIBmaoJBS2YrYuCFnIA/question [L,NC]
+RewriteRule ^(.*)HealthiPerspectives https://tonicforhealth.com/passage/survey/k4L1rBefULQeWxAjuqXevg/q [L,NC]
+RewriteRule ^(.*)\.html $1.php [L]
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteRule ^(.*)\.html $1.php [L]
+</IfModule>
+
+# END WordPress
